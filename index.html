@@ -1,103 +1,196 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title> Demo brief</title>
+<!--=== Coding by CodingLab | www.codinglabweb.com === -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="main.css" rel="stylesheet" />
-  </head>
-  <body>
+    
+    <!----======== CSS ======== -->
+    <link rel="stylesheet" href="main.css">
+     
+    <!----===== Iconscout CSS ===== -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <!--<title>Responsive Regisration Form </title>--> 
+</head>
+<body>
     <div class="container">
+        <header>Registration</header>
 
-<!– PRIMER FORMULARIO –>
-      <form id="Form1">
-        <h3>BRIEF DEMO - PART 1</h3>
-      <!– BOTON DE TEXTO –>
-        <input type="text" name="text" placeholder="dato 01" required>
-        <input type="password" name="password" placeholder="Paswword" required>
-        <input type="password" name="repassword" placeholder="Confirmar password" required>
+        <form action="#">
+            <div class="form first">
+                <div class="details personal">
+                    <span class="title">Personal Details</span>
 
-      <!– BOTON DE ENVIAR –>
-        <div class="btn-box">
-          <button type="button" id="Next1">NEXT</button>
-        </div>
-      </form>
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Full Name</label>
+                            <input type="text" placeholder="Enter your name" required>
+                        </div>
 
-<!– SEGUNDO FORMULARIO –>
-      <form id="Form2">
-        <h3>BRIEF DEMO - PART 2</h3>
-      <!– BOTON DE TEXTO –>
-        <input type="text" name="dato02" placeholder="dato 02">
-        <input type="text" name="dato03" placeholder="dato 03">
-        <input type="text" name="dato04" placeholder="dato 04">
+                        <div class="input-field">
+                            <label>Date of Birth</label>
+                            <input type="date" placeholder="Enter birth date" required>
+                        </div>
 
-      <!– BOTON DE ENVIAR –>
-        <div class="btn-box">
-          <button type="button" id="Back1">BACK</button>
-          <button type="button" id="Next2">NEXT</button>
-        </div>
-      </form>
+                        <div class="input-field">
+                            <label>Email</label>
+                            <input type="text" placeholder="Enter your email" required>
+                        </div>
 
-<!– TERCER FORMULARIO –>
-      <form id="Form3">
-        <h3>BRIEF DEMO - PART 3</h3>
-      <!– BOTON DE TEXTO –>
-        <input type="text" name="dato05" placeholder="dato 05">
-        <input type="text" name="dato06" placeholder="dato 06">
-        <input type="text" name="dato07" placeholder="dato 07">
+                        <div class="input-field">
+                            <label>Mobile Number</label>
+                            <input type="number" placeholder="Enter mobile number" required>
+                        </div>
 
-      <!– BOTON DE ENVIAR –>
-        <div class="btn-box">
-          <button type="button" id="Back2">BACK</button>
-          <button type="submit">SUBMIT</button>
-        </div>
-      </form>
+                        <div class="input-field">
+                            <label>Gender</label>
+                            <select required>
+                                <option disabled selected>Select gender</option>
+                                <option>Male</option>
+                                <option>Female</option>
+                                <option>Others</option>
+                            </select>
+                        </div>
 
-<!– BARRA DE PROGRESO –>
-      <dvi class="step-row">
-        <div id="progress"></div>
-        <div class="step-col"><small>Step 1</small></div>
-        <div class="step-col"><small>Step 2</small></div>
-        <div class="step-col"><small>Step 3</small></div>
-      </dvi>
+                        <div class="input-field">
+                            <label>Occupation</label>
+                            <input type="text" placeholder="Enter your ccupation" required>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="details ID">
+                    <span class="title">Identity Details</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>ID Type</label>
+                            <input type="text" placeholder="Enter ID type" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>ID Number</label>
+                            <input type="number" placeholder="Enter ID number" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Issued Authority</label>
+                            <input type="text" placeholder="Enter issued authority" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Issued State</label>
+                            <input type="text" placeholder="Enter issued state" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Issued Date</label>
+                            <input type="date" placeholder="Enter your issued date" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Expiry Date</label>
+                            <input type="date" placeholder="Enter expiry date" required>
+                        </div>
+                    </div>
+
+                    <button class="nextBtn">
+                        <span class="btnText">Next</span>
+                        <i class="uil uil-navigator"></i>
+                    </button>
+                </div> 
+            </div>
+
+            <div class="form second">
+                <div class="details address">
+                    <span class="title">Address Details</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Address Type</label>
+                            <input type="text" placeholder="Permanent or Temporary" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Nationality</label>
+                            <input type="text" placeholder="Enter nationality" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>State</label>
+                            <input type="text" placeholder="Enter your state" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>District</label>
+                            <input type="text" placeholder="Enter your district" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Block Number</label>
+                            <input type="number" placeholder="Enter block number" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Ward Number</label>
+                            <input type="number" placeholder="Enter ward number" required>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="details family">
+                    <span class="title">Family Details</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Father Name</label>
+                            <input type="text" placeholder="Enter father name" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Mother Name</label>
+                            <input type="text" placeholder="Enter mother name" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Grandfather</label>
+                            <input type="text" placeholder="Enter grandfther name" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Spouse Name</label>
+                            <input type="text" placeholder="Enter spouse name" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Father in Law</label>
+                            <input type="text" placeholder="Father in law name" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Mother in Law</label>
+                            <input type="text" placeholder="Mother in law name" required>
+                        </div>
+                    </div>
+
+                    <div class="buttons">
+                        <div class="backBtn">
+                            <i class="uil uil-navigator"></i>
+                            <span class="btnText">Back</span>
+                        </div>
+                        
+                        <button class="sumbit">
+                            <span class="btnText">Submit</span>
+                            <i class="uil uil-navigator"></i>
+                        </button>
+                    </div>
+                </div> 
+            </div>
+        </form>
     </div>
 
-<!– SCRIPTS –>
-    <script>
-      var Form1 = document.getElementById("Form1");
-      var Form2 = document.getElementById("Form2");
-      var Form3 = document.getElementById("Form3");
-
-      var Next1 = document.getElementById("Next1");
-      var Next2 = document.getElementById("Next2");
-
-      var Back1 = document.getElementById("Back1");
-      var Back2 = document.getElementById("Back2");
-
-      var progress = document.getElementById("progress");
-
-      Next1.onclick = function(){
-        Form1.style.left = "-450px";
-        Form2.style.left = "40px";
-        progress.style.width = "240px";
-      }
-
-      Back1.onclick = function(){
-        Form1.style.left = "40px";
-        Form2.style.left = "450px";
-        progress.style.width = "120px";
-      }
-
-      Next2.onclick = function(){
-        Form2.style.left = "-450px";
-        Form3.style.left = "40px";
-        progress.style.width = "360px";
-      }
-
-      Back2.onclick = function(){
-        Form2.style.left = "40px";
-        Form3.style.left = "450px";
-        progress.style.width = "240px";
-      }
-    </script>
-  </body>
+    <!--<script src="script.js"></script>-->
+</body>
 </html>
