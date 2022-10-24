@@ -5,7 +5,7 @@
 }
 
 body{
-  background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8),url(https://image.shutterstock.com/shutterstock/photos/1633551229/display_1500/stock-vector-vector-geometric-neon-pattern-with-triangles-and-lines-on-black-background-abstract-colorful-1633551229.jpg));
+  background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8),url(back.jpg));
   background-position: center;
   background-size: cover;
 }
