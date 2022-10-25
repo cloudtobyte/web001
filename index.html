@@ -1,188 +1,158 @@
 <!DOCTYPE html>
-<!--=== Coding by CodingLab | www.codinglabweb.com === -->
-<html lang="en">
+<!--===     codigo por CLOUDTOBYTE === -->
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
     <!----======== CSS ======== -->
     <link rel="stylesheet" href="main.css">
-     
     <!----===== Iconscout CSS ===== -->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
 
-    <!--<title>Responsive Regisration Form </title>--> 
+    <title>Formulario de registro RESPONSIVE </title>
 </head>
 <body>
     <div class="container">
-        <header>Registration</header>
-
+        <header>REGISTRARSE</header>
         <form action="#">
+<!----======== PRIMER FOMRULARIO 1/2 - Parte 1 ======== -->
             <div class="form first">
                 <div class="details personal">
-                    <span class="title">Personal Details</span>
-
+            <!-- Titulo -->
+                    <span class="title">Datos Personales</span>
                     <div class="fields">
+                <!-- Nombre -->
                         <div class="input-field">
-                            <label>Full Name</label>
-                            <input type="text" placeholder="Enter your name" required>
+                            <label>Nombre Completo</label>
+                            <input type="text" placeholder="Ingresa tu nombre" required>
                         </div>
-
+                <!-- Cumpleaños  -->
                         <div class="input-field">
-                            <label>Date of Birth</label>
-                            <input type="date" placeholder="Enter birth date" required>
+                            <label>Fcha. de nacimiento</label>
+                            <input type="date" placeholder="Ingresa tu cumpleaños" required>
                         </div>
-
+                <!-- Correo -->
                         <div class="input-field">
-                            <label>Email</label>
-                            <input type="text" placeholder="Enter your email" required>
+                            <label>Correo</label>
+                            <input type="text" placeholder="Ingresa tu correo" required>
                         </div>
-
+                <!-- Telefono -->
                         <div class="input-field">
-                            <label>Mobile Number</label>
-                            <input type="number" placeholder="Enter mobile number" required>
+                            <label>Nro. Telefonico</label>
+                            <input type="number" placeholder="Ingresa tu numero de telefono" required>
                         </div>
-
+                <!-- Sexo -->
                         <div class="input-field">
-                            <label>Gender</label>
+                            <label>Sexo</label>
                             <select required>
-                                <option disabled selected>Select gender</option>
-                                <option>Male</option>
-                                <option>Female</option>
-                                <option>Others</option>
+                                <option disabled selected>Cual es tu sexo?</option>
+                                <option>Hombre</option>
+                                <option>Mujer</option>
+                                <option>Otros</option>
+                                <option>No Binario</option>
                             </select>
                         </div>
-
+                <!-- Ocupacion -->
                         <div class="input-field">
-                            <label>Occupation</label>
-                            <input type="text" placeholder="Enter your ccupation" required>
+                            <label>Ocupación</label>
+                            <input type="text" placeholder="Ingresa tu ocupación" required>
                         </div>
                     </div>
                 </div>
 
+        <!----======== PRIMER FOMRULARIO 1/2 - Parte 2 ======== -->
                 <div class="details ID">
-                    <span class="title">Identity Details</span>
-
+                    <span class="title">Detalles de identidad </span>
                     <div class="fields">
+                <!-- RUN -->
                         <div class="input-field">
-                            <label>ID Type</label>
-                            <input type="text" placeholder="Enter ID type" required>
+                            <label>RUN</label>
+                            <input type="text" placeholder="Ingresa tu run" required>
                         </div>
-
+                <!-- ID RUN -->
                         <div class="input-field">
-                            <label>ID Number</label>
+                            <label>ID RUN</label>
                             <input type="number" placeholder="Enter ID number" required>
                         </div>
-
+                <!-- Fcha de emision -->
                         <div class="input-field">
-                            <label>Issued Authority</label>
-                            <input type="text" placeholder="Enter issued authority" required>
-                        </div>
-
-                        <div class="input-field">
-                            <label>Issued State</label>
-                            <input type="text" placeholder="Enter issued state" required>
-                        </div>
-
-                        <div class="input-field">
-                            <label>Issued Date</label>
+                            <label>Fecha de emisión</label>
                             <input type="date" placeholder="Enter your issued date" required>
                         </div>
-
+                <!-- Fecha de caducidad -->
                         <div class="input-field">
-                            <label>Expiry Date</label>
+                            <label>Fecha de caducidad</label>
                             <input type="date" placeholder="Enter expiry date" required>
                         </div>
                     </div>
-
+            <!----======== Boton Siguiente ======== -->
                     <button class="nextBtn">
-                        <span class="btnText">Next</span>
+                        <span class="btnText">Siguiente</span>
                         <i class="uil uil-navigator"></i>
                     </button>
                 </div> 
             </div>
 
+<!----======== SEGUNDO FORMULARIO 2/2 - Parte 1 ======== -->
             <div class="form second">
                 <div class="details address">
+                <!-- Nombre -->
                     <span class="title">Address Details</span>
-
                     <div class="fields">
+                <!-- Direccion -->
                         <div class="input-field">
-                            <label>Address Type</label>
-                            <input type="text" placeholder="Permanent or Temporary" required>
+                            <label>Dirección</label>
+                            <input type="text" placeholder="Ingresa tu direccion" required>
                         </div>
-
+                <!-- Nacionalidad -->
                         <div class="input-field">
-                            <label>Nationality</label>
-                            <input type="text" placeholder="Enter nationality" required>
+                            <label>Nacionalidad</label>
+                            <input type="text" placeholder="Ingresa tu nacionalidad" required>
                         </div>
-
+                <!-- Ciudad -->
                         <div class="input-field">
-                            <label>State</label>
-                            <input type="text" placeholder="Enter your state" required>
+                            <label>Ciudad</label>
+                            <input type="text" placeholder="Ingresa tu ciudad" required>
                         </div>
-
+                <!-- Comuna -->
                         <div class="input-field">
-                            <label>District</label>
-                            <input type="text" placeholder="Enter your district" required>
+                            <label>Comuna</label>
+                            <input type="text" placeholder="Ingresa la comuna" required>
                         </div>
-
+                <!-- Numero de casa -->
                         <div class="input-field">
-                            <label>Block Number</label>
-                            <input type="number" placeholder="Enter block number" required>
-                        </div>
-
-                        <div class="input-field">
-                            <label>Ward Number</label>
-                            <input type="number" placeholder="Enter ward number" required>
+                            <label>Número de casa</label>
+                            <input type="number" placeholder="Ingresa el nro. de tu casa" required>
                         </div>
                     </div>
                 </div>
 
+        <!----======== SEGUNDO FORMULARIO 2/2 - Parte 2 ======== -->
                 <div class="details family">
                     <span class="title">Family Details</span>
-
                     <div class="fields">
+                <!-- Nombre completo del padre -->
                         <div class="input-field">
-                            <label>Father Name</label>
-                            <input type="text" placeholder="Enter father name" required>
+                            <label>Nombre del Padre</label>
+                            <input type="text" placeholder="Ingresa el nombre de tu padre" required>
                         </div>
-
+                <!-- Nombre completo de la madre -->
                         <div class="input-field">
-                            <label>Mother Name</label>
-                            <input type="text" placeholder="Enter mother name" required>
-                        </div>
-
-                        <div class="input-field">
-                            <label>Grandfather</label>
-                            <input type="text" placeholder="Enter grandfther name" required>
-                        </div>
-
-                        <div class="input-field">
-                            <label>Spouse Name</label>
-                            <input type="text" placeholder="Enter spouse name" required>
-                        </div>
-
-                        <div class="input-field">
-                            <label>Father in Law</label>
-                            <input type="text" placeholder="Father in law name" required>
-                        </div>
-
-                        <div class="input-field">
-                            <label>Mother in Law</label>
-                            <input type="text" placeholder="Mother in law name" required>
+                            <label>Nombre de la madre</label>
+                            <input type="text" placeholder="Ingresa el nombre de tu madre" required>
                         </div>
                     </div>
 
+            <!----======== boton de enviar form  ======== -->
                     <div class="buttons">
                         <div class="backBtn">
                             <i class="uil uil-navigator"></i>
-                            <span class="btnText">Back</span>
+                            <span class="btnText">Volver</span>
                         </div>
                         
                         <button class="sumbit">
-                            <span class="btnText">Submit</span>
+                            <span class="btnText">Enviar</span>
                             <i class="uil uil-navigator"></i>
                         </button>
                     </div>
@@ -191,6 +161,6 @@
         </form>
     </div>
 
-    <!--<script src="script.js"></script>-->
+    <script src="script.js"></script>
 </body>
 </html>
